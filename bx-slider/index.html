@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>BX Slider</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <div class="slider_wrapper">
+        <div class="container">
+            <ul class="bxslider">
+              <li><img src="img/logo-01.png" /></li>
+              <li><img src="img/logo-02.png" /></li>
+              <li><img src="img/logo-03.png" /></li>
+              <li><img src="img/logo-04.png" /></li>
+              <li><img src="img/logo-05.png" /></li>
+              <li><img src="img/logo-06.png" /></li>
+              <li><img src="img/logo-07.png" /></li>
+              <li><img src="img/logo-08.png" /></li>
+              <li><img src="img/logo-09.png" /></li>
+              <li><img src="img/logo-10.png" /></li>
+              <li><img src="img/logo-11.png" /></li>
+              <li><img src="img/logo-12.png" /></li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+          $('.bxslider').bxSlider({
+            sliderMargin: 10,
+            speed: 4000,
+            ticket: true,
+            minSlider: 4,
+            maxSlider: 10,
+          });
+        });
+
+    </script>
+</body>
+</html>
